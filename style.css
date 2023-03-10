@@ -95,3 +95,12 @@ img {
     font-style: italic;
     color: #1F2937;
 }
+
+.cta {
+    background-color: #3882F6;
+    display: flex;
+    padding: 32px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 120px;
+}

@@ -1,11 +1,34 @@
-.header {
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.main-header {
     background-color: #1F2937;
     display: flex;
     justify-content: space-around;
     padding: 16px;
 }
 
+.sub-header {
+    background-color: #1F2937;
+    display: flex;
+    padding: 16px;
+    justify-content: space-around;
+}
+
+.left-sub {
+    width: 30vw;
+}
+
 .logo {
+    font-size: 24px;
     color: #F9FAF8;
 }
 
@@ -14,9 +37,26 @@
     display: flex;
     gap: 16px;
     list-style-type: none;
+    font-size: 18px;
 }
 
 a {
     text-decoration: none;
     color: #E5E7EB;
+}
+
+p {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: larger;
+}
+
+img {
+    height: 25vh;
+    width: 30vw;
 }
